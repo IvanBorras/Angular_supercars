@@ -139,6 +139,7 @@ export class MyInfoComponent implements OnInit {
                 showConfirmButton: false,
                 timer: 2000
               });
+             
             },
             error: (error) => {
               console.error('Error updating password:', error);
